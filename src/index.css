@@ -18,14 +18,38 @@
   background-color: rgb(235, 243, 243);
   height: 100%;
   width: 80%;
-
   border-radius: 30px;
   display: flex;
   flex-direction: column;
   gap:3rem;
   align-items:center;
-  padding-top: 5rem;
+  padding-top:1rem;
   
+}
+
+.SearchTab{
+  width: 80%;
+  display: flex;
+
+  
+}
+.locn{
+  border-radius: 30px;
+  width: 100%;
+  padding: 0.5rem;
+  background-color:azure;
+  padding-top: 1rem;
+
+}
+.Jobname{
+  border-radius: 30px;
+  width: 100%;
+  padding: 0.5rem;
+  padding-top: 1rem;
+
+
+  background-color:azure;
+
 }
 .innerbox{
   background-color:rgba(255, 255, 255, 0.93);
@@ -33,7 +57,9 @@
   border-radius: 30px;
   width: 80%;
   height: 10%;
-  
+  font-family: poppins,sans-serif;
+  color: rgba(65, 65, 65, 1);
+
 }
 
 .left{
@@ -56,13 +82,52 @@ h1{
   
 }
 
-
-
-.text{
-  width: 10%;
-  font-family: poppins,sans-serif;
-  color: rgba(48, 47, 47, 0.728);
-  padding-right: 68%;
-  font-size: 2rem;
+.Org{
+  font-size: 1rem;
+  
 }
 
+.JobTitle{
+  font-size: 1.3rem;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+
+
+
+.logo{
+  width: 8rem;
+  height: 8rem;
+  background-color: rgb(207, 144, 144);
+  border-radius: 20px;
+}
+.icons{
+  color: rgba(0, 0, 0, 0.523);
+}
+.Description{
+  color: rgba(0, 0, 0, 0.523);
+
+}
+
+.innerflex{
+  display: flex;
+  padding: 1rem;
+  padding-left: 1.3rem;
+  gap:2rem;
+  height: 100%;
+  width: 100%;
+}
+
+.icons{
+  display: flex;
+  flex-direction: row;
+  gap:1rem;
+}
+
+.texxt{
+  display: flex;
+
+  flex-direction: column;
+  gap:0.5rem;
+}

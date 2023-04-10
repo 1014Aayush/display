@@ -32,10 +32,13 @@ export default function App()
           
       </div>
       <div className="right">
-        <div className='text'>Jobss</div>
+        <form className='SearchTab'>
+          <input className='Jobname' type="text" />
+          <input className='locn' type="text" />
+        </form>
           <Jobs/>
           <Jobs/>
-          
+          <Jobs/>
       </div>
       </div>
 
