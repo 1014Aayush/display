@@ -12,12 +12,24 @@ export default function Profile()
             </div>
             <div className="profile_right">
                 <div className="application_status">
-                    <div className="Applied_dialog"></div>
-                    <div className="match_dialog"></div>
-                    <div className="interview_dialog"></div>
+                    <div className="Applied_dialog">
+                        <div className="text_applicationstatus"></div>
+                        Applied Jobs</div>
+                    <div className="match_dialog">
+                        Job Matches
+                    </div>
+                    <div className="interview_dialog">
+                        Interview
+                    </div>
                 </div>
-                <div className="profile_messages"></div>
-                
+                <div className="profile_messages">
+                    Messages
+                    <div className="Messages"></div>
+                    <div className="Messages"></div>
+                    <div className="Messages"></div>
+                </div>
+
+
             </div>
         </div>
     );
