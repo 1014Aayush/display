@@ -9,14 +9,14 @@ export default function Jobs(props){
             <div class="innerflex">
                 <div className='logo'></div>
                 <div className='texxt'>
-                    <div className='Org'>Organization</div>
-                    <div className='JobTitle'>Job Title</div>
+                    <div className='Org'>{props.organization}</div>
+                    <div className='JobTitle'>{props.job_Title}</div>
                     <div className="icons">
-                        <div className='Address'>Address</div>
-                        <div className='Salary'>Salary</div>
-                        <div className='Time'>Time</div>
+                        <div className='Address'>{props.Address}</div>
+                        <div className='Salary'>{props.Salary}</div>
+                        <div className='Time'>{props.Time}</div>
                     </div>
-                    <div className="Description">Description</div>
+                    <div className="Description">{props.Description}</div>
                 </div>
             </div>
         </div>
