@@ -1,6 +1,6 @@
 import React from "react";
-import RadioButtons from './radioButtons';
-import Jobs from './jobs';
+import RadioButtons from '../components/radioButtons';
+import Jobs from '../components/jobs';
 
 
 

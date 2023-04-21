@@ -1,5 +1,5 @@
 import React from "react";
-import Applicants_info from "./Applicants_info";
+import Applicants_info from "../components/Applicants_info";
 
 export default function(props)
 {
