@@ -8,7 +8,10 @@ export default function Profile()
             <div class="profile_left">
                 <div className="profile_image"></div>
                 <div className="profile_name">NameHere</div>
-                <div className="profile_upload">Upload</div>
+                <form>
+                     <button className="profile_upload">Upload</button>
+                </form>
+
             </div>
             <div className="profile_right">
                 <div className="application_status">
